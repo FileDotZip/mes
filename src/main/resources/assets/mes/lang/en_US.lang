@@ -4,6 +4,6 @@
 itemGroup.Modular Exo Suits=Modular Exo Suits
 
 #Items
-item.TestItem.name=MesTestItem1
+item.mes.awesome_debug_tool.name=DebugTool
 
 #Blocks
