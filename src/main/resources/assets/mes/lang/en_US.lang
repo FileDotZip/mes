@@ -4,5 +4,6 @@
 itemGroup.Modular Exo Suits=Modular Exo Suits
 
 #Items
+item.TestItem.name=MesTestItem1
 
 #Blocks

@@ -1,5 +1,6 @@
 package io.fdz.mes;
 
+import io.fdz.mes.item.MesItems;
 import io.fdz.mes.proxy.CommonProxy;
 import io.fdz.mes.tab.CreativeTab1;
 import net.minecraft.creativetab.CreativeTabs;
@@ -29,6 +30,7 @@ public class MesOfaMod
     public void preInit(FMLPreInitializationEvent event){
         creativeTab1 = new CreativeTab1(CreativeTabs.getNextID(),"Modular Exo Suits");
         proxy.preInit(event);
+        MesItems.preInit();
     }
 
     @EventHandler
